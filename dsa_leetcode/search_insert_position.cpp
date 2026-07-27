@@ -13,6 +13,6 @@ public:
             else
             low=mid+1;
         }
-        return mid+1;
+        return low;
     }
 };
