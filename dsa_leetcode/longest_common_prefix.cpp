@@ -8,7 +8,7 @@ public:
 
         for(int i=0;i<strs[0].size();i++)
         {
-            char cc = strs[0][i];
+            char cc = strs[0][i];   // current character
             for(int j=1;j<m;j++)
             {
                 if(i == strs[j].size() || cc != strs[j][i]) return ans;
